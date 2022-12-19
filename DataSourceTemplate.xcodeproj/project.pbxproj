@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7967C0372950C1CC00D2E949 /* AnyDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7967C0352950C1CC00D2E949 /* AnyDataSource.swift */; };
-		7967C0382950C1CC00D2E949 /* DataSourcing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7967C0362950C1CC00D2E949 /* DataSourcing.swift */; };
+		793D34CD2950EF4F005B8547 /* AnyDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793D34CB2950EF4F005B8547 /* AnyDataSource.swift */; };
+		793D34CE2950EF4F005B8547 /* DataSourcing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793D34CC2950EF4F005B8547 /* DataSourcing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,9 +24,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		793D34CB2950EF4F005B8547 /* AnyDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyDataSource.swift; sourceTree = "<group>"; };
+		793D34CC2950EF4F005B8547 /* DataSourcing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSourcing.swift; sourceTree = "<group>"; };
 		7967C02B2950C1AA00D2E949 /* libDataSourceTemplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDataSourceTemplate.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		7967C0352950C1CC00D2E949 /* AnyDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyDataSource.swift; sourceTree = "<group>"; };
-		7967C0362950C1CC00D2E949 /* DataSourcing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSourcing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,10 +40,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		793D34CA2950EF4F005B8547 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				793D34CB2950EF4F005B8547 /* AnyDataSource.swift */,
+				793D34CC2950EF4F005B8547 /* DataSourcing.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		7967C0222950C1AA00D2E949 = {
 			isa = PBXGroup;
 			children = (
-				7967C02D2950C1AA00D2E949 /* DataSourceTemplate */,
+				793D34CA2950EF4F005B8547 /* Sources */,
 				7967C02C2950C1AA00D2E949 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,15 +63,6 @@
 				7967C02B2950C1AA00D2E949 /* libDataSourceTemplate.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		7967C02D2950C1AA00D2E949 /* DataSourceTemplate */ = {
-			isa = PBXGroup;
-			children = (
-				7967C0352950C1CC00D2E949 /* AnyDataSource.swift */,
-				7967C0362950C1CC00D2E949 /* DataSourcing.swift */,
-			);
-			path = DataSourceTemplate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7967C0372950C1CC00D2E949 /* AnyDataSource.swift in Sources */,
-				7967C0382950C1CC00D2E949 /* DataSourcing.swift in Sources */,
+				793D34CD2950EF4F005B8547 /* AnyDataSource.swift in Sources */,
+				793D34CE2950EF4F005B8547 /* DataSourcing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
