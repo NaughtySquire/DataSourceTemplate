@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 	s.name = 'DataSourceTemplate'
-	s.summary = 'Data Source Template
+	s.summary = 'Data Source Template'
 	s.version = '1.0'
 	s.author = { 'NaughtySquire' => 'https://github.com/NaughtySquire' }
 	s.license = { :type => 'BSD' }
