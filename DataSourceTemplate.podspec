@@ -2,6 +2,7 @@ Pod::Spec.new do |s|
 	s.name = 'DataSourceTemplate'
 	s.summary = 'Data Source Template'
 	s.version = '1.0'
+	s.ios.deployment_target = '13.0'
 	s.author = { 'NaughtySquire' => 'https://github.com/NaughtySquire' }
 	s.license = { :type => 'BSD' }
 	s.homepage = 'https://github.com/NaughtySquire'
